@@ -1,0 +1,60 @@
+{
+  "source_file": "Document5.pdf",
+  "verified": true,
+  "verification": "Each value compared by hand against the source PDF text and totals.",
+  "notes": "Cash flow statement. Amounts in lakhs.",
+  "fields": {
+    "operating_activities": {
+      "value": -784.75,
+      "verified": true
+    },
+    "operating_activities_prior_year": {
+      "value": -419.63,
+      "verified": true
+    },
+    "investing_activities": {
+      "value": 514.57,
+      "verified": true
+    },
+    "investing_activities_prior_year": {
+      "value": 2136.91,
+      "verified": true
+    },
+    "financing_activities": {
+      "value": -1256.13,
+      "verified": true
+    },
+    "financing_activities_prior_year": {
+      "value": -942.1,
+      "verified": true
+    },
+    "net_change": {
+      "value": -1526.31,
+      "verified": true
+    },
+    "net_change_prior_year": {
+      "value": 775.18,
+      "verified": true
+    },
+    "opening_cash": {
+      "value": 1547.52,
+      "verified": true
+    },
+    "opening_cash_prior_year": {
+      "value": 772.34,
+      "verified": true
+    },
+    "closing_cash": {
+      "value": 21.21,
+      "verified": true
+    },
+    "closing_cash_prior_year": {
+      "value": 1547.52,
+      "verified": true
+    },
+    "unit": {
+      "value": "lakhs",
+      "verified": true
+    }
+  }
+}

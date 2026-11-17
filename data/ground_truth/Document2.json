@@ -1,0 +1,40 @@
+{
+  "source_file": "Document2.pdf",
+  "verified": true,
+  "verification": "Each value compared by hand against the source PDF text and totals.",
+  "notes": "Commercial invoice. Party names, addresses, VAT and EORI numbers intentionally excluded. Total of 65 line items also confirmed.",
+  "fields": {
+    "invoice_number": {
+      "value": "S2401-34",
+      "verified": true
+    },
+    "invoice_date": {
+      "value": "2024-01-05",
+      "verified": true
+    },
+    "currency": {
+      "value": "GBP",
+      "verified": true
+    },
+    "incoterm": {
+      "value": "DAP",
+      "verified": true
+    },
+    "customer_number": {
+      "value": "66255",
+      "verified": true
+    },
+    "total_sales_value": {
+      "value": 27743.11,
+      "verified": true
+    },
+    "freight_value": {
+      "value": 0.0,
+      "verified": true
+    },
+    "total_net_weight": {
+      "value": 25.021,
+      "verified": true
+    }
+  }
+}

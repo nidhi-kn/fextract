@@ -1,0 +1,19 @@
+flowchart TD
+    A[Input folder] --> B[Ingest and validate]
+    B -->|invalid| X[Error record]
+    B --> C[Page text quality triage]
+    C -->|usable text| D[Digital text and tables]
+    C -->|missing or noisy| E[Render and preprocess]
+    E --> F[Local OCR adapters]
+    D --> G[Stitch tables]
+    F --> G
+    G --> H[Classify each page]
+    H --> I[Group consecutive sections]
+    I --> J[Rules and layout extraction]
+    J --> K{Missing fields?}
+    K -->|yes, configured| L[Grounded local LLM hook]
+    K -->|no| M[Pydantic normalization]
+    L --> M
+    M --> N[Arithmetic validation]
+    N --> O[Confidence and review flags]
+    O --> P[JSON, CSV, summary]

@@ -1,0 +1,28 @@
+{
+  "source_file": "Document1.pdf",
+  "verified": true,
+  "verification": "Each value compared by hand against the source PDF text and totals.",
+  "notes": "Balance sheet of a sole proprietorship. Names, PAN and addresses intentionally excluded.",
+  "fields": {
+    "total_assets": {
+      "value": 7220444.0,
+      "verified": true
+    },
+    "total_liabilities": {
+      "value": 7220444.0,
+      "verified": true
+    },
+    "as_on_date": {
+      "value": "2023-03-31",
+      "verified": true
+    },
+    "assessment_year": {
+      "value": "2023-24",
+      "verified": true
+    },
+    "financial_year": {
+      "value": "2022-23",
+      "verified": true
+    }
+  }
+}

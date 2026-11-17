@@ -1,0 +1,120 @@
+{
+  "source_file": "Document4.pdf",
+  "verified": true,
+  "verification": "Each value compared by hand against the source PDF text and totals.",
+  "notes": "Annual report excerpt. Amounts in crores.",
+  "fields": {
+    "report_date": {
+      "value": "2018-05-14",
+      "verified": true
+    },
+    "as_on_date": {
+      "value": "2018-03-31",
+      "verified": true
+    },
+    "total_assets": {
+      "value": 17149.0,
+      "verified": true
+    },
+    "total_liabilities": {
+      "value": 17149.0,
+      "verified": true
+    },
+    "revenue": {
+      "value": 35218.0,
+      "verified": true
+    },
+    "other_income": {
+      "value": 569.0,
+      "verified": true
+    },
+    "expenses": {
+      "value": 28440.0,
+      "verified": true
+    },
+    "exceptional_items": {
+      "value": -62.0,
+      "verified": true
+    },
+    "profit_before_tax": {
+      "value": 7285.0,
+      "verified": true
+    },
+    "profit": {
+      "value": 5237.0,
+      "verified": true
+    },
+    "revenue_prior_year": {
+      "value": 34487.0,
+      "verified": true
+    },
+    "other_income_prior_year": {
+      "value": 526.0,
+      "verified": true
+    },
+    "expenses_prior_year": {
+      "value": 28858.0,
+      "verified": true
+    },
+    "exceptional_items_prior_year": {
+      "value": 241.0,
+      "verified": true
+    },
+    "profit_before_tax_prior_year": {
+      "value": 6396.0,
+      "verified": true
+    },
+    "profit_prior_year": {
+      "value": 4490.0,
+      "verified": true
+    },
+    "operating_activities": {
+      "value": 5916.0,
+      "verified": true
+    },
+    "investing_activities": {
+      "value": -1264.0,
+      "verified": true
+    },
+    "financing_activities": {
+      "value": -4651.0,
+      "verified": true
+    },
+    "net_change": {
+      "value": 1.0,
+      "verified": true
+    },
+    "opening_cash": {
+      "value": 572.0,
+      "verified": true
+    },
+    "closing_cash": {
+      "value": 573.0,
+      "verified": true
+    },
+    "operating_activities_prior_year": {
+      "value": 4953.0,
+      "verified": true
+    },
+    "investing_activities_prior_year": {
+      "value": -752.0,
+      "verified": true
+    },
+    "financing_activities_prior_year": {
+      "value": -4264.0,
+      "verified": true
+    },
+    "net_change_prior_year": {
+      "value": -63.0,
+      "verified": true
+    },
+    "opening_cash_prior_year": {
+      "value": 635.0,
+      "verified": true
+    },
+    "closing_cash_prior_year": {
+      "value": 572.0,
+      "verified": true
+    }
+  }
+}

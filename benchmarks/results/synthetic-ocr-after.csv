@@ -1,0 +1,145 @@
+file,page,engine,seconds,characters,wer,cer,status
+SYN-0001-degraded.pdf,1,embedded,8.00006091594696e-07,0,1.0,1.0,measured
+SYN-0001-degraded.pdf,1,tesseract,0.6170762999972794,111,0.0,0.044642857142857144,measured
+SYN-0001-degraded.pdf,1,paddleocr,0.0001680999994277954,0,,,unavailable: RuntimeError
+SYN-0001.pdf,1,embedded,1.0999938240274787e-06,112,0.0,0.0,measured
+SYN-0001.pdf,1,tesseract,0.6210036999982549,111,0.0,0.044642857142857144,measured
+SYN-0001.pdf,1,paddleocr,0.00017420000222045928,0,,,unavailable: RuntimeError
+SYN-0002-degraded.pdf,1,embedded,9.00006853044033e-07,0,1.0,1.0,measured
+SYN-0002-degraded.pdf,1,tesseract,0.5754980000056094,149,0.05263157894736842,0.03355704697986577,measured
+SYN-0002-degraded.pdf,1,paddleocr,0.00026030000299215317,0,,,unavailable: RuntimeError
+SYN-0002.pdf,1,embedded,1.200009137392044e-06,149,0.0,0.053691275167785234,measured
+SYN-0002.pdf,1,tesseract,0.681770700000925,148,0.0,0.026845637583892617,measured
+SYN-0002.pdf,1,paddleocr,0.00016680000408086926,0,,,unavailable: RuntimeError
+SYN-0003-degraded.pdf,1,embedded,8.999923011288047e-07,0,1.0,1.0,measured
+SYN-0003-degraded.pdf,1,tesseract,0.6196292000095127,117,0.1875,0.06896551724137931,measured
+SYN-0003-degraded.pdf,1,paddleocr,0.00016339999274350703,0,,,unavailable: RuntimeError
+SYN-0003.pdf,1,embedded,9.999930625781417e-07,116,0.0,0.0,measured
+SYN-0003.pdf,1,tesseract,0.645714099999168,115,0.0,0.04310344827586207,measured
+SYN-0003.pdf,1,paddleocr,0.0001657999964663759,0,,,unavailable: RuntimeError
+SYN-0004-degraded.pdf,1,embedded,7.999915396794677e-07,0,1.0,1.0,measured
+SYN-0004-degraded.pdf,1,tesseract,0.5856797000014922,149,0.05263157894736842,0.03355704697986577,measured
+SYN-0004-degraded.pdf,1,paddleocr,0.0001644000003580004,0,,,unavailable: RuntimeError
+SYN-0004.pdf,1,embedded,6.00004568696022e-07,149,0.0,0.053691275167785234,measured
+SYN-0004.pdf,1,tesseract,0.6847228999977233,148,0.0,0.026845637583892617,measured
+SYN-0004.pdf,1,paddleocr,0.00023630000941921026,0,,,unavailable: RuntimeError
+SYN-0005-degraded.pdf,1,embedded,6.00004568696022e-07,0,1.0,1.0,measured
+SYN-0005-degraded.pdf,1,tesseract,0.5897494999953778,122,0.125,0.05785123966942149,measured
+SYN-0005-degraded.pdf,1,paddleocr,0.00028750000637955964,0,,,unavailable: RuntimeError
+SYN-0005.pdf,1,embedded,1.200009137392044e-06,121,0.0,0.0,measured
+SYN-0005.pdf,1,tesseract,0.6549128000042401,120,0.0,0.04132231404958678,measured
+SYN-0005.pdf,1,paddleocr,0.00017499999376013875,0,,,unavailable: RuntimeError
+SYN-0006-degraded.pdf,1,embedded,1.1999945854768157e-06,0,1.0,1.0,measured
+SYN-0006-degraded.pdf,1,tesseract,0.5784057999990182,150,0.10526315789473684,0.040268456375838924,measured
+SYN-0006-degraded.pdf,1,paddleocr,0.00017010000010486692,0,,,unavailable: RuntimeError
+SYN-0006.pdf,1,embedded,1.00000761449337e-06,149,0.0,0.053691275167785234,measured
+SYN-0006.pdf,1,tesseract,0.669878400003654,148,0.0,0.026845637583892617,measured
+SYN-0006.pdf,1,paddleocr,0.00019689998589456081,0,,,unavailable: RuntimeError
+SYN-0007-degraded.pdf,1,embedded,1.7999991541728377e-06,0,1.0,1.0,measured
+SYN-0007-degraded.pdf,1,tesseract,0.5932960999925854,109,0.13333333333333333,0.06422018348623854,measured
+SYN-0007-degraded.pdf,1,paddleocr,0.00016309999045915902,0,,,unavailable: RuntimeError
+SYN-0007.pdf,1,embedded,9.999930625781417e-07,109,0.0,0.0,measured
+SYN-0007.pdf,1,tesseract,0.6410407000075793,108,0.0,0.045871559633027525,measured
+SYN-0007.pdf,1,paddleocr,0.00016630000027362257,0,,,unavailable: RuntimeError
+SYN-0008-degraded.pdf,1,embedded,8.999923011288047e-07,0,1.0,1.0,measured
+SYN-0008-degraded.pdf,1,tesseract,0.5934084000036819,148,0.05263157894736842,0.040268456375838924,measured
+SYN-0008-degraded.pdf,1,paddleocr,0.00016519999189767987,0,,,unavailable: RuntimeError
+SYN-0008.pdf,1,embedded,1.1999945854768157e-06,149,0.0,0.053691275167785234,measured
+SYN-0008.pdf,1,tesseract,0.6804421000124421,148,0.0,0.026845637583892617,measured
+SYN-0008.pdf,1,paddleocr,0.0001720000000204891,0,,,unavailable: RuntimeError
+SYN-0009-degraded.pdf,1,embedded,7.00005330145359e-07,0,1.0,1.0,measured
+SYN-0009-degraded.pdf,1,tesseract,0.6755682999937562,121,0.125,0.05785123966942149,measured
+SYN-0009-degraded.pdf,1,paddleocr,0.00017179999849759042,0,,,unavailable: RuntimeError
+SYN-0009.pdf,1,embedded,8.999923011288047e-07,121,0.0,0.0,measured
+SYN-0009.pdf,1,tesseract,0.6558479000086663,120,0.0,0.04132231404958678,measured
+SYN-0009.pdf,1,paddleocr,0.00018039999122265726,0,,,unavailable: RuntimeError
+SYN-0010-degraded.pdf,1,embedded,6.999907782301307e-07,0,1.0,1.0,measured
+SYN-0010-degraded.pdf,1,tesseract,0.6055674999952316,147,0.0,0.02702702702702703,measured
+SYN-0010-degraded.pdf,1,paddleocr,0.00017069999012164772,0,,,unavailable: RuntimeError
+SYN-0010.pdf,1,embedded,7.00005330145359e-07,148,0.0,0.05405405405405406,measured
+SYN-0010.pdf,1,tesseract,0.672536800004309,147,0.0,0.02702702702702703,measured
+SYN-0010.pdf,1,paddleocr,0.00016880000475794077,0,,,unavailable: RuntimeError
+SYN-0011-degraded.pdf,1,embedded,1.00000761449337e-06,0,1.0,1.0,measured
+SYN-0011-degraded.pdf,1,tesseract,0.5990524000080768,120,0.1875,0.06779661016949153,measured
+SYN-0011-degraded.pdf,1,paddleocr,0.0001976999919861555,0,,,unavailable: RuntimeError
+SYN-0011.pdf,1,embedded,1.3999961083754897e-06,118,0.0,0.0,measured
+SYN-0011.pdf,1,tesseract,0.6488321999931941,117,0.0,0.0423728813559322,measured
+SYN-0011.pdf,1,paddleocr,0.00028369999199640006,0,,,unavailable: RuntimeError
+SYN-0012-degraded.pdf,1,embedded,1.3999961083754897e-06,0,1.0,1.0,measured
+SYN-0012-degraded.pdf,1,tesseract,0.5931650000129594,148,0.0,0.026845637583892617,measured
+SYN-0012-degraded.pdf,1,paddleocr,0.00017999998817685992,0,,,unavailable: RuntimeError
+SYN-0012.pdf,1,embedded,1.00000761449337e-06,149,0.0,0.053691275167785234,measured
+SYN-0012.pdf,1,tesseract,0.6883074000070337,148,0.0,0.026845637583892617,measured
+SYN-0012.pdf,1,paddleocr,0.0002347999979974702,0,,,unavailable: RuntimeError
+SYN-0013-degraded.pdf,1,embedded,9.00006853044033e-07,0,1.0,1.0,measured
+SYN-0013-degraded.pdf,1,tesseract,0.5857830999884754,113,0.0,0.043859649122807015,measured
+SYN-0013-degraded.pdf,1,paddleocr,0.00020599999697878957,0,,,unavailable: RuntimeError
+SYN-0013.pdf,1,embedded,9.00006853044033e-07,114,0.0,0.0,measured
+SYN-0013.pdf,1,tesseract,0.64782969999942,113,0.0,0.043859649122807015,measured
+SYN-0013.pdf,1,paddleocr,0.00016429999959655106,0,,,unavailable: RuntimeError
+SYN-0014-degraded.pdf,1,embedded,1.00000761449337e-06,0,1.0,1.0,measured
+SYN-0014-degraded.pdf,1,tesseract,0.5967129999917233,148,0.0,0.026845637583892617,measured
+SYN-0014-degraded.pdf,1,paddleocr,0.0002010000025620684,0,,,unavailable: RuntimeError
+SYN-0014.pdf,1,embedded,1.0999938240274787e-06,149,0.0,0.053691275167785234,measured
+SYN-0014.pdf,1,tesseract,0.6833218999963719,148,0.0,0.026845637583892617,measured
+SYN-0014.pdf,1,paddleocr,0.00017159999697469175,0,,,unavailable: RuntimeError
+SYN-0015-degraded.pdf,1,embedded,5.00003807246685e-07,0,1.0,1.0,measured
+SYN-0015-degraded.pdf,1,tesseract,0.6336254999914672,118,0.125,0.059322033898305086,measured
+SYN-0015-degraded.pdf,1,paddleocr,0.00018220000492874533,0,,,unavailable: RuntimeError
+SYN-0015.pdf,1,embedded,1.0999938240274787e-06,118,0.0,0.0,measured
+SYN-0015.pdf,1,tesseract,0.6584883000032278,117,0.0,0.0423728813559322,measured
+SYN-0015.pdf,1,paddleocr,0.00022519999765791,0,,,unavailable: RuntimeError
+SYN-0016-degraded.pdf,1,embedded,1.2999953469261527e-06,0,1.0,1.0,measured
+SYN-0016-degraded.pdf,1,tesseract,0.5958990000071935,142,0.3157894736842105,0.2702702702702703,measured
+SYN-0016-degraded.pdf,1,paddleocr,0.00017590000061318278,0,,,unavailable: RuntimeError
+SYN-0016.pdf,1,embedded,7.00005330145359e-07,148,0.0,0.05405405405405406,measured
+SYN-0016.pdf,1,tesseract,0.7014464999956544,147,0.0,0.02702702702702703,measured
+SYN-0016.pdf,1,paddleocr,0.0001652999926591292,0,,,unavailable: RuntimeError
+SYN-0017-degraded.pdf,1,embedded,1.0999938240274787e-06,0,1.0,1.0,measured
+SYN-0017-degraded.pdf,1,tesseract,0.6137182999955257,124,0.1875,0.06557377049180328,measured
+SYN-0017-degraded.pdf,1,paddleocr,0.00017299999308306724,0,,,unavailable: RuntimeError
+SYN-0017.pdf,1,embedded,7.00005330145359e-07,122,0.0,0.0,measured
+SYN-0017.pdf,1,tesseract,0.6618716000084532,121,0.0,0.040983606557377046,measured
+SYN-0017.pdf,1,paddleocr,0.00018450000789016485,0,,,unavailable: RuntimeError
+SYN-0018-degraded.pdf,1,embedded,1.0999938240274787e-06,0,1.0,1.0,measured
+SYN-0018-degraded.pdf,1,tesseract,0.6117777000035858,148,0.3684210526315789,0.30405405405405406,measured
+SYN-0018-degraded.pdf,1,paddleocr,0.0002086000022245571,0,,,unavailable: RuntimeError
+SYN-0018.pdf,1,embedded,8.00006091594696e-07,148,0.0,0.05405405405405406,measured
+SYN-0018.pdf,1,tesseract,0.6947016000049189,147,0.0,0.02702702702702703,measured
+SYN-0018.pdf,1,paddleocr,0.00020039999799337238,0,,,unavailable: RuntimeError
+SYN-0019-degraded.pdf,1,embedded,1.4999968698248267e-06,0,1.0,1.0,measured
+SYN-0019-degraded.pdf,1,tesseract,0.5864030999946408,110,0.2,0.07339449541284404,measured
+SYN-0019-degraded.pdf,1,paddleocr,0.00018479999562259763,0,,,unavailable: RuntimeError
+SYN-0019.pdf,1,embedded,9.00006853044033e-07,109,0.0,0.0,measured
+SYN-0019.pdf,1,tesseract,0.7761670000036247,108,0.0,0.045871559633027525,measured
+SYN-0019.pdf,1,paddleocr,0.00019419999443925917,0,,,unavailable: RuntimeError
+SYN-0020-degraded.pdf,1,embedded,8.00006091594696e-07,0,1.0,1.0,measured
+SYN-0020-degraded.pdf,1,tesseract,0.5740903999976581,128,0.2631578947368421,0.2080536912751678,measured
+SYN-0020-degraded.pdf,1,paddleocr,0.0001680999994277954,0,,,unavailable: RuntimeError
+SYN-0020.pdf,1,embedded,8.999923011288047e-07,149,0.0,0.053691275167785234,measured
+SYN-0020.pdf,1,tesseract,0.6913769999955548,148,0.0,0.026845637583892617,measured
+SYN-0020.pdf,1,paddleocr,0.0002035999932559207,0,,,unavailable: RuntimeError
+SYN-0021-degraded.pdf,1,embedded,9.00006853044033e-07,0,1.0,1.0,measured
+SYN-0021-degraded.pdf,1,tesseract,0.6320931000082055,121,0.0,0.040983606557377046,measured
+SYN-0021-degraded.pdf,1,paddleocr,0.0001635999942664057,0,,,unavailable: RuntimeError
+SYN-0021.pdf,1,embedded,1.700012944638729e-06,122,0.0,0.0,measured
+SYN-0021.pdf,1,tesseract,0.6841265999973984,121,0.0,0.040983606557377046,measured
+SYN-0021.pdf,1,paddleocr,0.00017189999925903976,0,,,unavailable: RuntimeError
+SYN-0022-degraded.pdf,1,embedded,7.00005330145359e-07,0,1.0,1.0,measured
+SYN-0022-degraded.pdf,1,tesseract,0.5943430000043008,135,0.2631578947368421,0.21476510067114093,measured
+SYN-0022-degraded.pdf,1,paddleocr,0.00018810000619851053,0,,,unavailable: RuntimeError
+SYN-0022.pdf,1,embedded,1.2999953469261527e-06,149,0.0,0.053691275167785234,measured
+SYN-0022.pdf,1,tesseract,0.7095950999937486,148,0.0,0.026845637583892617,measured
+SYN-0022.pdf,1,paddleocr,0.00020510000467766076,0,,,unavailable: RuntimeError
+SYN-0023-degraded.pdf,1,embedded,1.0999938240274787e-06,0,1.0,1.0,measured
+SYN-0023-degraded.pdf,1,tesseract,0.6239384000073187,118,0.0625,0.05084745762711865,measured
+SYN-0023-degraded.pdf,1,paddleocr,0.0001680999994277954,0,,,unavailable: RuntimeError
+SYN-0023.pdf,1,embedded,7.00005330145359e-07,118,0.0,0.0,measured
+SYN-0023.pdf,1,tesseract,0.6557554000028176,117,0.0,0.0423728813559322,measured
+SYN-0023.pdf,1,paddleocr,0.00018390000332146883,0,,,unavailable: RuntimeError
+SYN-0024-degraded.pdf,1,embedded,9.00006853044033e-07,0,1.0,1.0,measured
+SYN-0024-degraded.pdf,1,tesseract,0.6082503000070574,148,0.0,0.026845637583892617,measured
+SYN-0024-degraded.pdf,1,paddleocr,0.00024560000747442245,0,,,unavailable: RuntimeError
+SYN-0024.pdf,1,embedded,1.3999961083754897e-06,149,0.0,0.053691275167785234,measured
+SYN-0024.pdf,1,tesseract,0.694573600005242,148,0.0,0.026845637583892617,measured
+SYN-0024.pdf,1,paddleocr,0.00017949999892152846,0,,,unavailable: RuntimeError

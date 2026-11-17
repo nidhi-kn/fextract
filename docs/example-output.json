@@ -1,0 +1,117 @@
+{
+  "source_file": "SYN-0001.pdf",
+  "page_count": 1,
+  "extraction_paths": {
+    "1": "digital_text"
+  },
+  "source_quality": {},
+  "sections": [
+    {
+      "doc_type": "commercial_invoice",
+      "doc_type_confidence": 0.99,
+      "pages": [
+        1
+      ],
+      "fields": {
+        "invoice_number": {
+          "value": "SYN-0001",
+          "confidence": 0.7000000000000001,
+          "page": 1,
+          "bbox": null,
+          "source": "rule",
+          "source_layer": "digital_text",
+          "null_reason": null,
+          "flags": []
+        },
+        "invoice_date": {
+          "value": "2025-02-01",
+          "confidence": 0.7000000000000001,
+          "page": 1,
+          "bbox": null,
+          "source": "rule",
+          "source_layer": "digital_text",
+          "null_reason": null,
+          "flags": []
+        },
+        "incoterm": {
+          "value": null,
+          "confidence": 0.0,
+          "page": null,
+          "bbox": null,
+          "source": "none",
+          "source_layer": "digital_text",
+          "null_reason": "not_present",
+          "flags": [
+            "review"
+          ]
+        },
+        "vendor_name": {
+          "value": "Example Supplier 1",
+          "confidence": 0.7000000000000001,
+          "page": 1,
+          "bbox": null,
+          "source": "rule",
+          "source_layer": "digital_text",
+          "null_reason": null,
+          "flags": []
+        },
+        "customer_name": {
+          "value": null,
+          "confidence": 0.0,
+          "page": null,
+          "bbox": null,
+          "source": "none",
+          "source_layer": "digital_text",
+          "null_reason": "not_present",
+          "flags": [
+            "review"
+          ]
+        },
+        "total_sales_value": {
+          "value": 301.6,
+          "confidence": 0.7000000000000001,
+          "page": 1,
+          "bbox": null,
+          "source": "rule",
+          "source_layer": "digital_text",
+          "null_reason": null,
+          "flags": []
+        },
+        "currency": {
+          "value": "INR",
+          "confidence": 0.7000000000000001,
+          "page": 1,
+          "bbox": null,
+          "source": "rule",
+          "source_layer": "digital_text",
+          "null_reason": null,
+          "flags": []
+        }
+      },
+      "tables": {},
+      "validation": [
+        {
+          "check": "line_sales_sum_equals_invoice_total",
+          "passed": null,
+          "detail": "line_sum=0, total=301.6, items=0",
+          "status": "not_evaluable"
+        },
+        {
+          "check": "invoice_item_quantity_times_price",
+          "passed": null,
+          "detail": "validated=0, items=0",
+          "status": "not_evaluable"
+        }
+      ]
+    }
+  ],
+  "cross_section_validation": [],
+  "needs_review": [
+    "section_1.incoterm",
+    "section_1.customer_name"
+  ],
+  "errors": [],
+  "timings_ms": {
+    "total": 177.3583999602124
+  }
+}

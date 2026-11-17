@@ -1,0 +1,40 @@
+{
+  "source_file": "Document3.pdf",
+  "verified": true,
+  "verification": "Each value compared by hand against the source PDF text and totals.",
+  "notes": "Scanned audit pack. Auditor and company names intentionally excluded.",
+  "fields": {
+    "report_date": {
+      "value": "2022-09-06",
+      "verified": true
+    },
+    "as_on_date": {
+      "value": "2022-03-31",
+      "verified": true
+    },
+    "total_assets": {
+      "value": 66980.0,
+      "verified": true
+    },
+    "total_liabilities": {
+      "value": 66980.0,
+      "verified": true
+    },
+    "revenue": {
+      "value": 81250.0,
+      "verified": true
+    },
+    "expenses": {
+      "value": 129770.0,
+      "verified": true
+    },
+    "profit_before_tax": {
+      "value": -48520.0,
+      "verified": true
+    },
+    "profit": {
+      "value": -48520.0,
+      "verified": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+file,page,engine,seconds,characters,wer,cer,status
+Document3.pdf,1,embedded,1.2999953469261527e-06,2928,,,no_transcription_ground_truth
+Document3.pdf,1,tesseract,1.9468249999918044,2641,,,no_transcription_ground_truth
+Document3.pdf,1,paddleocr,0.00018629999249242246,0,,,unavailable: RuntimeError
+Document3.pdf,2,embedded,1.300009898841381e-06,3563,,,no_transcription_ground_truth
+Document3.pdf,2,tesseract,2.153223800007254,3401,,,no_transcription_ground_truth
+Document3.pdf,2,paddleocr,0.0002330999996047467,0,,,unavailable: RuntimeError
+Document3.pdf,3,embedded,9.999930625781417e-07,1612,,,no_transcription_ground_truth
+Document3.pdf,3,tesseract,1.3916679999965709,1286,,,no_transcription_ground_truth
+Document3.pdf,3,paddleocr,0.0001728000061120838,0,,,unavailable: RuntimeError
+Document3.pdf,4,embedded,1.0999938240274787e-06,2439,,,no_transcription_ground_truth
+Document3.pdf,4,tesseract,1.7457448999921326,2247,,,no_transcription_ground_truth
+Document3.pdf,4,paddleocr,0.0001951000012923032,0,,,unavailable: RuntimeError
+Document3.pdf,5,embedded,9.00006853044033e-07,585,,,no_transcription_ground_truth
+Document3.pdf,5,tesseract,0.8967983999900753,288,,,no_transcription_ground_truth
+Document3.pdf,5,paddleocr,0.00017189999925903976,0,,,unavailable: RuntimeError
+Document3.pdf,6,embedded,1.100008375942707e-06,1257,,,no_transcription_ground_truth
+Document3.pdf,6,tesseract,1.2188673000055132,506,,,no_transcription_ground_truth
+Document3.pdf,6,paddleocr,0.00016589999722782522,0,,,unavailable: RuntimeError
+Document3.pdf,7,embedded,1.100008375942707e-06,1171,,,no_transcription_ground_truth
+Document3.pdf,7,tesseract,1.2490560000005644,577,,,no_transcription_ground_truth
+Document3.pdf,7,paddleocr,0.00018310001178178936,0,,,unavailable: RuntimeError
+Document3.pdf,8,embedded,8.999923011288047e-07,1288,,,no_transcription_ground_truth
+Document3.pdf,8,tesseract,1.4629792999912752,911,,,no_transcription_ground_truth
+Document3.pdf,8,paddleocr,0.0003034999972442165,0,,,unavailable: RuntimeError
+Document3.pdf,9,embedded,1.100008375942707e-06,841,,,no_transcription_ground_truth
+Document3.pdf,9,tesseract,1.31826609998825,621,,,no_transcription_ground_truth
+Document3.pdf,9,paddleocr,0.00020009999570902437,0,,,unavailable: RuntimeError
+Document3.pdf,10,embedded,1.1999945854768157e-06,518,,,no_transcription_ground_truth
+Document3.pdf,10,tesseract,1.0204851000016788,332,,,no_transcription_ground_truth
+Document3.pdf,10,paddleocr,0.00018699999782256782,0,,,unavailable: RuntimeError
+Document3.pdf,11,embedded,9.999930625781417e-07,5105,,,no_transcription_ground_truth
+Document3.pdf,11,tesseract,2.485418700001901,5044,,,no_transcription_ground_truth
+Document3.pdf,11,paddleocr,0.0001908999984152615,0,,,unavailable: RuntimeError
+Document3.pdf,12,embedded,9.00006853044033e-07,2372,,,no_transcription_ground_truth
+Document3.pdf,12,tesseract,1.3969650999933947,1150,,,no_transcription_ground_truth
+Document3.pdf,12,paddleocr,0.00030020000122021884,0,,,unavailable: RuntimeError

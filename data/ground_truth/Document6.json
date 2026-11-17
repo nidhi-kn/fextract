@@ -1,0 +1,16 @@
+{
+  "source_file": "Document6.pdf",
+  "verified": true,
+  "verification": "Each value compared by hand against the source PDF text and totals.",
+  "notes": "Bank statement excerpt (pages 5-20 of 128). 130 transaction rows confirmed. Opening balance is derived from the first row (balance + debit - credit); closing is the last row balance. Holder and period are not present on these pages.",
+  "fields": {
+    "opening_balance": {
+      "value": 177347.06,
+      "verified": true
+    },
+    "closing_balance": {
+      "value": 334994.27,
+      "verified": true
+    }
+  }
+}
