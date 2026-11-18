@@ -150,11 +150,11 @@ Six sample documents were run end to end (digital and scanned PDFs, 88 pages in 
 
 **Field accuracy on hand-verified fields: 64 of 64 correct.** The 64 headline fields (identifiers, dates, totals, statement line items and balances) were compared by hand against the source PDFs and are stored in `data/ground_truth/`. Names, tax numbers and addresses were deliberately left out of the labels. Run `fextract benchmark --ground-truth data/ground_truth` to reproduce this on your own copies.
 
-> Caveat: the extraction rules were developed while looking at these six documents, so this is development-set accuracy, not an estimate for unseen documents. For unseen layouts, see the synthetic benchmark, which uses documents the rules were never tuned on. Of the 64 correct fields, 13 were still flagged for review, so the review flag errs on the cautious side.
+> Caveat: the extraction rules were developed while looking at these six documents, so this is development-set accuracy, not an estimate for unseen documents. The synthetic benchmark provides an additional controlled robustness check on generated documents and degraded copies; it should not be interpreted as a measure of broad unseen-layout generalisation. Of the 64 correct fields, 13 were still flagged for review, so the review flag errs on the cautious side.
 
 ### Synthetic benchmark (generated documents, 216 labelled fields)
 
-The generator (`benchmarks/generate_synthetic.py`, seed 31) produces 24 invoices and bank statements with varied layouts, plus 24 degraded copies (rotation, blur, noise, low resolution). They are generated rather than committed: run `python benchmarks/generate_synthetic.py --count 24`.
+The generator (`benchmarks/generate_synthetic.py`, seed 31) produces 24 synthetic invoices and bank statements with limited variations in labels, positioning and font, plus 24 degraded image-based copies with rotation, blur, compression and reduced resolution. This is a controlled robustness check, not evidence of generalisation to unseen vendors, banks or document layouts. They are generated rather than committed: run `python benchmarks/generate_synthetic.py --count 24`.
 
 | Run | Precision | Recall | F1 |
 |---|---:|---:|---:|
@@ -200,7 +200,7 @@ Peak memory was not measured. On Document3, the model added no fields beyond wha
 
 ### Speed
 
-On the synthetic set, throughput was 1.87, 2.86 and 4.71 documents per second with 1, 2 and 4 workers (Windows, Python 3.14). The 47-page annual report, which needs the most OCR work, takes the longest of the six samples.
+On the synthetic set, throughput was 1.73, 3.15 and 4.48 documents per second with 1, 2 and 4 workers, respectively (Windows, Python 3.14; measured values are recorded in `benchmarks/results/synthetic-pipeline-after.csv`). The 47-page annual report, which needs the most OCR work, takes the longest of the six samples.
 
 ## Testing
 
@@ -222,7 +222,7 @@ Tests use only synthetic and fictional fixtures. The suite covers number and dat
 
 ## Known limitations
 
-- Accuracy on the six real documents is development-set accuracy (see the caveat above). Unseen layouts are covered only by the synthetic benchmark (recall 0.898).
+- Accuracy on the six real documents is development-set accuracy (see the caveat above). Unseen-layout generalisation has not been comprehensively evaluated; the synthetic benchmark covers controlled document variations only (recall 0.898).
 - Field provenance is page-level; there are no word-level bounding boxes.
 - Review flags are cautious (precision 0.146) and still miss some wrong values (recall 0.636).
 - Document3's P&L assumes nil for lines that are absent or printed as a dash; those values are marked `derived`.
